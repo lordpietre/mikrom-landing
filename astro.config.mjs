@@ -7,6 +7,7 @@ export default defineConfig({
   site: 'https://www.mikrom.es',
   adapter: cloudflare({
     platformProxy: {
-      enabled: true
+      enabled: true,
+    },
   }),
 });
