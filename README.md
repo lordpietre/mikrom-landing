@@ -69,6 +69,16 @@ Access the site at:
 └── docker-compose.yml  # Docker orchestration
 ```
 
+## Commands
+```text
+| Command        | Action                                      |
+| :------------- | :------------------------------------------ |
+| `pnpm install` | Install dependencies                        |
+| `pnpm dev`     | Start dev server at `localhost:4321`         |
+| `pnpm build`   | Build production site to `./dist/`           |
+| `pnpm preview` | Preview production build locally             |
+```
+
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
