@@ -28,18 +28,3 @@ Built with **Astro 5** and deployed to **Cloudflare Workers**.
 | `pnpm dev`     | Start dev server at `localhost:4321`         |
 | `pnpm build`   | Build production site to `./dist/`           |
 | `pnpm preview` | Preview production build locally             |
-
-## Deployment
-
-Pushes to `main` trigger a GitHub Actions workflow that builds and deploys to Cloudflare Workers automatically.
-
-The workflow requires two repository secrets (Settings > Secrets and variables > Actions):
-
-- `CLOUDFLARE_API_TOKEN` — API token with Workers edit permissions
-- `CLOUDFLARE_ACCOUNT_ID` — Cloudflare account ID
-
-To deploy manually:
-
-```sh
-pnpx wrangler deploy
-```
